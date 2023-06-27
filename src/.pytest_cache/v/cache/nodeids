@@ -1,0 +1,19 @@
+[
+  "max_test.py::TestClass::test_01",
+  "max_test.py::TestClass::test_02",
+  "max_test.py::TestClass::test_03",
+  "max_test.py::TestClass::test_04",
+  "max_test.py::TestClass::test_05",
+  "max_test.py::TestClass::test_06",
+  "max_test.py::TestClass::test_07",
+  "max_test.py::test_01",
+  "max_test.py::test_02",
+  "max_test.py::test_03",
+  "max_test.py::test_04",
+  "max_test.py::test_05",
+  "max_test.py::test_06",
+  "max_test.py::test_07",
+  "max_test.py::test_max",
+  "max_test.py::test_min",
+  "test_sample.py::test_answer"
+]

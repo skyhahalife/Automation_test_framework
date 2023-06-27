@@ -1,0 +1,9 @@
+{
+  "src/test_sample.py::test_answer": true,
+  "src/max_test.py::test_max": true,
+  "Lib/site-packages/colorama/tests/ansi_test.py": true,
+  "Lib/site-packages/colorama/tests/ansitowin32_test.py": true,
+  "Lib/site-packages/colorama/tests/initialise_test.py": true,
+  "Lib/site-packages/colorama/tests/isatty_test.py": true,
+  "Lib/site-packages/colorama/tests/winterm_test.py": true
+}

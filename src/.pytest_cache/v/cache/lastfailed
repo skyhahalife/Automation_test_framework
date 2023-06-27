@@ -1,0 +1,4 @@
+{
+  "max_test.py::test_max": true,
+  "test_sample.py::test_answer": true
+}

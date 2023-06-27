@@ -1,0 +1,1 @@
+{"total":3,"items":[{"uid":"d23325bdfc19fb87fa423ade3af8c8df","name":"模拟测试用例失败","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"291acf9e9a32ab31429af5d260facf39","name":"TestClass 测试类","statistic":{"failed":0,"broken":0,"skipped":1,"passed":5,"unknown":0,"total":6}}]}
