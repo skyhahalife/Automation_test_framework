@@ -5,5 +5,6 @@
   "Lib/site-packages/colorama/tests/ansitowin32_test.py": true,
   "Lib/site-packages/colorama/tests/initialise_test.py": true,
   "Lib/site-packages/colorama/tests/isatty_test.py": true,
-  "Lib/site-packages/colorama/tests/winterm_test.py": true
+  "Lib/site-packages/colorama/tests/winterm_test.py": true,
+  "src/max_test.py::TestClass::test_max": true
 }

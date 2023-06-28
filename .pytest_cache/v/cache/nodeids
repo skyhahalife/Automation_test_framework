@@ -6,6 +6,13 @@
   "src/max_test.py::TestClass::test_05",
   "src/max_test.py::TestClass::test_06",
   "src/max_test.py::TestClass::test_07",
+  "src/max_test.py::TestClass::test_fixture",
+  "src/max_test.py::TestClass::test_fixture[01]",
+  "src/max_test.py::TestClass::test_fixture[02]",
+  "src/max_test.py::TestClass::test_fixture[\\u7528\\u6237\\u540d\\u79f0]",
+  "src/max_test.py::TestClass::test_fixture[\\u7528\\u6237\\u64cd\\u4f5c]",
+  "src/max_test.py::TestClass::test_max",
+  "src/max_test.py::TestClass::test_min",
   "src/max_test.py::test_max",
   "src/max_test.py::test_min",
   "src/test_sample.py::test_answer"

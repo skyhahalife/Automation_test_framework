@@ -24,32 +24,16 @@ def min(values):
     return _min
 
 
-@pytest.mark.skip
-def test_min():
-    values = (2, 3, 1, 4, 6)
-    val = min(values)
-    assert val == 1
-
-
-@allure.story("模拟测试用例失败")
-@allure.severity(allure.severity_level.BLOCKER)
-def test_max():
-    allure.attach("<body>这是一个attach测试</body>", name='attach测试', attachment_type=allure.attachment_type.HTML)
-    values = (2, 3, 1, 4, 6)
-    val = max(values)
-    assert val == 5
-
-
 @allure.feature("TestClass 测试类")
 class TestClass:
 
     @staticmethod
     def setup_class():
-        print("Start test")
+        print("Start Test Class")
 
     @staticmethod
     def teardown_class():
-        print("End test")
+        print("End Test Class")
 
     # Test environment return token and so on
     @pytest.mark.skipif(env != 'prod', reason='This is product environment')
@@ -90,6 +74,24 @@ class TestClass:
     def test_07(self):
         print("This is test_07")
 
+    @pytest.mark.skip
+    def test_min(self):
+        values = (2, 3, 1, 4, 6)
+        val = min(values)
+        assert val == 1
+
+    @allure.story("模拟测试用例失败")
+    @allure.severity(allure.severity_level.BLOCKER)
+    def test_max(self):
+        allure.attach("<body>这是一个attach测试</body>", name='attach测试', attachment_type=allure.attachment_type.HTML)
+        values = (2, 3, 1, 4, 6)
+        val = max(values)
+        assert val == 5
+
+    # "prepare_date" 该fixture 已有别名 "p_data"，不能用原来的方法名引用
+    def test_fixture(self, p_data):
+        print("prepared date:", p_data)
+
 
 if __name__ == '__main__':
     # pytest.main()
@@ -97,11 +99,11 @@ if __name__ == '__main__':
     # http://localhost:63342/xxxxxx/src/reports/index.html
     # 1）allure-pytest插件：2）allure工具：3）allure工具需要java jdk：
     os.system('allure generate ./temp -o ./reports --clean')
-    print("http://localhost:63342/pythonProject3/src/reports/index.html")
+    print("http://localhost:63342/Automation_test_framework/src/reports/index.html")
 
     # 如果pytest.main()中传入的参数没生效，并且修改了默认运行为pytest，
     # 右键运行时默认运行了当前文件的所有用例，因为程序识别到了pytest框架，
-    # 默认pytest运行，要main主函数运行，需要修改python解释器
+    # 默认pytest运行，如果main主函数运行，需要修改python解释器配置
     # pytest.main(['-m smoke'])
 
     # pytest.main(['-vs','./maxtest.py'])
