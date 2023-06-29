@@ -1,0 +1,12 @@
+-
+  title: 验证接口成功获取access_toke
+  request:
+    method: get
+    url: http://www.baidu.com
+    params:
+      grant_type: null
+      appid: null
+      secret: null
+    header: null
+  validate:
+    code: 200

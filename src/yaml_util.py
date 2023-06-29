@@ -4,21 +4,21 @@ import yaml
 # yaml is used to save certain extract values etc. token uuid
 class YamlUtil:
 
-    def read_yaml(self, key):
-        with open("./extract.yaml", encoding="utf-8", mode="r") as f:
+    def read_yaml(self, filepath):
+        with open(filepath, encoding="utf-8", mode="r") as f:
             content = yaml.load(stream=f, Loader=yaml.FullLoader)
-        return content[key]
+        return content
 
-    def write_yaml(self, data):
-        with open("./extract.yaml", encoding="utf-8", mode="w") as f:
+    def write_yaml(self, file_path, data):
+        with open(file_path, encoding="utf-8", mode="w") as f:
             yaml.dump(data, stream=f, allow_unicode=True)
 
-    def add_yaml(self, data):
-        with open("./extract.yaml", encoding="utf-8", mode="a") as f:
+    def add_yaml(self, file_path, data):
+        with open(file_path, encoding="utf-8", mode="a") as f:
             yaml.dump(data, stream=f, allow_unicode=True)
 
-    def clean_yaml(self):
-        with open("./extract.yaml", encoding="utf-8", mode='w') as f:
+    def clean_yaml(self, file_path):
+        with open(file_path, encoding="utf-8", mode='w') as f:
             f.truncate()
 
 
