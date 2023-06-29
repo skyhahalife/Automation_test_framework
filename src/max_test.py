@@ -2,8 +2,9 @@ import json
 import os
 import allure
 import pytest
-from yaml_util import YamlUtil
+from common.yaml_util import YamlUtil
 import requests
+from common.logger_handler import logger
 
 
 env = 'prod'
@@ -93,14 +94,25 @@ class TestClass:
     def test_fixture(self, p_data):
         print("prepared date:", p_data)
 
-    @pytest.mark.parametrize("case_info", YamlUtil().read_yaml("./get_token.yaml"))
+    @pytest.mark.parametrize("case_info", YamlUtil().read_yaml("./request_baidu.yaml"))
     @pytest.mark.smoke
     def test_data_drive(self, case_info):
+        logger.info('*'*50)
+        logger.info(f'用例编号:{case_info["testId"]}条用例')
+        logger.info(f'用例名称:{case_info["title"]}')
         json.dumps(case_info)
         method = case_info["request"]["method"]
         url = case_info["request"]["url"]
         response = requests.request(method, url)
-        assert response.status_code == case_info["validate"]["code"]
+        logger.info(f"method:{method}")
+        logger.info(f"url:{url}")
+        logger.info(response)
+        try:
+            assert response.status_code == case_info["validate"]["code"]
+        except AssertionError as e:
+            logger.error(f'用例执行失败:{e}')
+            raise e
+
 
 
 if __name__ == '__main__':
