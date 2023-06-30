@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a5f682d-f5a2-40dd-936c-0e5e49ddeb8c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/max_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/max_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/max_test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reports/data/attachments/2402332ef4c9d68c.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reports/data/attachments/25446ad8b99635d7.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reports/data/attachments/298baed4eb85205f.html" beforeDir="false" />
@@ -307,7 +307,7 @@
       <change beforePath="$PROJECT_DIR$/src/reports/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/widgets/status-chart.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reports/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/widgets/suites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reports/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/yaml_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_sample.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,13 +332,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\PycharmProjects\Automation_test_framework\src\common" />
@@ -357,7 +357,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/max_test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\Automation_test_framework\src\testcase\max_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -409,7 +409,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/max_test.py</url>
+          <url>file://$PROJECT_DIR$/src/testcase/max_test.py</url>
           <line>117</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
