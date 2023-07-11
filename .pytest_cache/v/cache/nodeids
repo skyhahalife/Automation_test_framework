@@ -20,5 +20,7 @@
   "src/max_test.py::TestClass::test_min",
   "src/max_test.py::test_max",
   "src/max_test.py::test_min",
-  "src/test_sample.py::test_answer"
+  "src/test_sample.py::test_answer",
+  "src/testcase/max_test.py::TestClass::test_03",
+  "src/testcase/max_test.py::TestClass::test_data_drive[case_info0]"
 ]

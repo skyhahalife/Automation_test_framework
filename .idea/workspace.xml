@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2a5f682d-f5a2-40dd-936c-0e5e49ddeb8c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/max_test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reports/data/attachments/2402332ef4c9d68c.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reports/data/attachments/25446ad8b99635d7.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reports/data/attachments/298baed4eb85205f.html" beforeDir="false" />
@@ -307,7 +306,6 @@
       <change beforePath="$PROJECT_DIR$/src/reports/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/widgets/status-chart.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reports/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/widgets/suites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reports/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_sample.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,6 +339,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\Automation_test_framework\src\testcase" />
+      <recent name="C:\Users\Administrator\PycharmProjects\Automation_test_framework\src\data" />
       <recent name="C:\Users\Administrator\PycharmProjects\Automation_test_framework\src\common" />
     </key>
   </component>
